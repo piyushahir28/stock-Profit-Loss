@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
-    margin-top: 2rem;
+    margin: 2rem;
     box-sizing: border-box;
     background-color: #E0E0E0;
 }
@@ -10,4 +10,69 @@ body {
     --primary: #479F0B;
     --mate: #78909C;
     --offGrey: #78909C;
+}
+
+.main {
+    display: flex;
+    background-color: white;
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.container h2 {
+    color: var(--primary);
+    font-size: 30px;
+}
+
+.container label {
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.container input {
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem auto;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+}
+
+.container button {
+    font-size: 21px;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.col1 {
+    padding: 0rem;
+    margin: 2rem 0rem 3rem 9rem;
+}
+
+.col2 img {
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+@media only screen and (max-width: 700px) {
+    .main {
+        display: block;
+    }
+    .col1 {
+        margin: 0rem 0rem 0rem 2rem;
+        padding-top: 2rem;
+    }
 }
