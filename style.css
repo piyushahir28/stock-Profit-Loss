@@ -100,6 +100,9 @@ body {
         display: block;
     }
     .col1 {
-        margin: 0rem 0rem 0rem 2rem;
+        margin: 0rem 0rem 0rem 1.5rem;
+    }
+    body {
+        margin: 1rem;
     }
 }
