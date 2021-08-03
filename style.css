@@ -8,8 +8,6 @@ body {
 
 :root {
     --primary: #479F0B;
-    --mate: #78909C;
-    --offGrey: #78909C;
 }
 
 .main {
@@ -66,6 +64,14 @@ body {
     margin: auto;
     width: 90%;
     max-width: 700px;
+}
+
+.profit {
+    display: none;
+}
+
+.loss {
+    display: none;
 }
 
 .output {
