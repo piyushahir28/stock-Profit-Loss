@@ -38,7 +38,7 @@ body {
     padding: 0.6rem 0.8rem;
     margin: 0.5rem auto;
     width: 90%;
-    max-width: 400px;
+    max-width: 350px;
     border: 1px solid var(--primary);
     border-radius: 20px;
 }
@@ -104,5 +104,8 @@ body {
     }
     body {
         margin: 1rem;
+    }
+    .container input {
+        max-width: 210px;
     }
 }
